@@ -1,23 +1,17 @@
-void fizzbuzz(int n)
-{
-  for(int i = 0;i <= n;i++)
-  {
-    if(i % 3 == 0)
-    {
-      print("fizz");
-    }
-    if(i % 3 == 0 && i % 5 == 0)
-    {
+void fizzbuzz(int n) {
+  for (int i = 1; i <= n; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
       print("fizzbuzz");
-    }
-    if(i % 3 != 0 || i % 5 != 0)
-    {
+    } else if (i % 3 == 0) {
+      print("fizz");
+    } else if (i % 5 == 0) {
+      print("buzz");
+    } else {
       print(i);
     }
   }
 }
 
-void main()
-{
+void main() {
   fizzbuzz(15);
 }
