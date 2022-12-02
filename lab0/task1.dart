@@ -12,6 +12,7 @@ void fizzbuzz(int n) {
   }
 }
 
-void main() {
+void main()
+{
   fizzbuzz(15);
 }
