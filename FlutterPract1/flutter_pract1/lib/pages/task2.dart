@@ -13,22 +13,22 @@ class HomePage extends StatelessWidget {
             Row(mainAxisAlignment: MainAxisAlignment.center, children: const [
           Icon(
             Icons.star,
-            color: Colors.red,
+            color: Color.fromARGB(255, 92, 62, 60),
             size: 40,
           ),
           Icon(
             Icons.star,
-            color: Colors.red,
+            color: Color.fromARGB(255, 54, 244, 108),
             size: 40,
           ),
           Icon(
             Icons.star,
-            color: Colors.red,
+            color: Color.fromARGB(255, 244, 54, 174),
             size: 40,
           ),
           Icon(
             Icons.star,
-            color: Colors.red,
+            color: Color.fromARGB(255, 206, 244, 54),
             size: 40,
           ),
           Icon(
